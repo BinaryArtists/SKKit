@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+        <com.spark.demo.autoviewpager.viewpager.AutoSlidePager
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:id="@+id/view_pager"/>
+
+            <com.spark.demo.autoviewpager.IconPageIndicator
+                android:id="@+id/icon_indicator"
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="4dp"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:onClick="refreshViewData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:background="@color/red"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:text="模拟接口获取数据刷新页面"/>
+
+
+
+</LinearLayout>
