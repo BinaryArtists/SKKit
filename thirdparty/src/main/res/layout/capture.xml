@@ -9,7 +9,8 @@
         android:layout_height="fill_parent" />
 
     <!-- 扫描取景框 -->
-    <com.karics.library.zxing.view.ViewfinderView
+    <!--<com.karics.library.zxing.view.ViewfinderView-->
+    <com.spark.demo.thirdparty.richscan.karics.library.zxing.view.ViewfinderView
         android:id="@+id/viewfinder_view"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
