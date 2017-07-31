@@ -2,6 +2,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.spark.demo.androiddemo">
 
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+
+
+
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,6 +29,16 @@
 
         <activity android:name=".viewpager.ViewPagerDemoActivity"
                   android:screenOrientation="portrait"/>
+        <activity android:name=".pay.PayActivity"
+                  android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.spark.demo.thirdparty.zxing.activity.CaptureActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait" >
+        </activity>
+
+
     </application>
 
 </manifest>
