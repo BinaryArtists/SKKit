@@ -9,95 +9,74 @@
         android:id="@+id/activity_menu"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
         android:orientation="vertical"
         tools:context="com.spark.demo.androiddemo.MenuActivity">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/gray"
-            android:onClick="view1Click"
-            android:padding="10dp"
-            android:text="轮播组件"
-            android:textColor="@color/white"/>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/gray2"
-            android:padding="10dp"
-            android:text="滚轮控件"
-            android:textColor="@color/white"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/gray"
             android:onClick="view3Click"
-            android:padding="10dp"
-            android:text="支付"
-            android:textColor="@color/white"/>
+            style="@style/MenuItemStyle"
+            android:text="支付"/>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/gray2"
-            android:padding="10dp"
-            android:text="分享"
-            android:textColor="@color/white"/>
+            style="@style/MenuItemStyle2"
+            android:text="分享"/>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/gray"
             android:onClick="richScanClick"
-            android:padding="10dp"
-            android:text="扫一扫"
-            android:textColor="@color/white"/>
+            style="@style/MenuItemStyle"
+            android:text="扫一扫"/>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/gray2"
-            android:onClick="view3Click"
-            android:padding="10dp"
-            android:text="摇一摇"
-            android:textColor="@color/white"/>
+            android:onClick="shakeClick"
+            style="@style/MenuItemStyle2"
+            android:text="摇一摇"/>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/gray"
-            android:onClick="view3Click"
-            android:padding="10dp"
+            style="@style/MenuItemStyle"
             android:text="6.0动态权限"
-            android:textColor="@color/white"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/gray2"
-            android:onClick="view3Click"
-            android:padding="10dp"
-            android:text="日历控件"
-            android:textColor="@color/white"/>
+            />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/gray"
-            android:onClick="view3Click"
-            android:padding="10dp"
-            android:text="WebView"
-            android:textColor="@color/white"/>
+            android:onClick="view1Click"
+            style="@style/MenuItemStyle2"
+            android:text="轮播组件"/>
+
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/gray2"
-            android:onClick="view3Click"
-            android:padding="10dp"
+            android:onClick="dialogClick"
+            style="@style/MenuItemStyle"
+            android:text="Dialog"
+            />
+
+
+        <TextView
+            style="@style/MenuItemStyle2"
+            android:text="滚轮控件"
+            />
+
+        <TextView
+
+            style="@style/MenuItemStyle"
+            android:text="日历控件"/>
+
+        <TextView
+            style="@style/MenuItemStyle2"
+            android:text="WebView"/>
+
+        <TextView
+            style="@style/MenuItemStyle"
             android:text="全局倒计时"
-            android:textColor="@color/white"/>
+            />
 
+        <TextView
+            style="@style/MenuItemStyle2"
+            android:text="沉浸式"/>
+
+        <TextView
+            style="@style/MenuItemStyle"
+            android:text="上拉加载下拉刷新"
+            />
 
     </LinearLayout>
 

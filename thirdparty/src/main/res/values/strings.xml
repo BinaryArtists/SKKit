@@ -140,6 +140,15 @@
     <string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
 
 
+    <string name="text_title_shake">摇一摇</string>
+
+
+
+    <string name="text_share_to_friend">朋友圈</string>
+    <string name="text_share_qq">QQ</string>
+    <string name="text_share_weixin">微信</string>
+    <string name="text_share_sina">新浪</string>
+
 
 
 

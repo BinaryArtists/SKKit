@@ -34,6 +34,17 @@
   <color name="transparent_black_50">#50000000</color>
 
   <color name="navpage">#FFE1E8EB</color>
+  <color name="window_bg_gray">#fff4f4f4</color>
+
+
+
+  <color name="gray2">#666666</color>
+  <color name="text_gray">@color/gray2</color>
+  <color name="win_bg_color">#f4f4f4</color>
+  <color name="bg_divider_color">@color/win_bg_color</color>
+
+
+
 
 
 </resources>

@@ -5,8 +5,10 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.spark.demo.androiddemo.dlg.DialogActivity;
 import com.spark.demo.androiddemo.pay.PayActivity;
 import com.spark.demo.androiddemo.viewpager.ViewPagerDemoActivity;
+import com.spark.demo.thirdparty.shake.ShakeShowActivity;
 import com.spark.demo.thirdparty.zxing.activity.CaptureActivity;
 
 /**
@@ -36,4 +38,13 @@ public class MenuActivity extends AppCompatActivity {
         startActivity(new Intent(MenuActivity.this, CaptureActivity.class));
     }
 
+    public void shakeClick (View v){
+        // 摇一摇
+        startActivity(new Intent(MenuActivity.this, ShakeShowActivity.class));
+    }
+
+    public void dialogClick(View v){
+        // 常见的dialog
+        startActivity(new Intent(MenuActivity.this, DialogActivity.class));
+    }
 }

@@ -29,4 +29,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
     compile 'com.google.zxing:core:3.3.0'
+    // import for share
+    compile 'com.facebook.fresco:fresco:0.8.1'
 }
