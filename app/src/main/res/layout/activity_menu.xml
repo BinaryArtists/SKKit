@@ -20,6 +20,7 @@
             android:text="支付"/>
 
         <TextView
+            android:onClick="shareClick"
             style="@style/MenuItemStyle2"
             android:text="分享"/>
 
