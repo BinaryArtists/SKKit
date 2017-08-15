@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_0dp">
+
+
+    <!--标题部分-->
+    <TextView
+        android:id="@+id/dlg_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/margin_12dp"
+        android:paddingLeft="@dimen/margin_12dp"
+        android:paddingRight="@dimen/margin_12dp"
+        android:paddingTop="@dimen/margin_12dp"
+        android:text="title"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/dlg_title_divider"
+        style="@style/dlgTitleDivier"
+        android:visibility="gone" />
+
+
+    <!--主要要显示操作的部分-->
+
+    <FrameLayout
+        android:id="@+id/dlg_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_purple"
+            android:paddingLeft="@dimen/margin_purple"
+            android:paddingRight="@dimen/margin_purple"
+            android:paddingTop="@dimen/margin_purple"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_size_16sp"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/dlg_content_divider"
+        style="@style/dlgTitleDivier"
+        android:visibility="gone" />
+
+
+    <!--button部分-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dlg_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/margin_12dp"
+            android:text="---"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/dlg_btn_divider"
+            style="@style/dlgBtnDivier"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/dlg_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/margin_12dp"
+            android:text="---"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+</LinearLayout>

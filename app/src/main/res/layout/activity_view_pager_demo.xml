@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="8dp"
-        android:background="@color/red"
+        android:background="@color/black"
         android:layout_margin="10dp"
         android:textColor="@color/white"
         android:text="模拟接口获取数据刷新页面"/>

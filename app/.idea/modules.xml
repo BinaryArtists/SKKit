@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/../AndroidDemo.iml" filepath="$PROJECT_DIR$/../AndroidDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/../autoviewpager/autoviewpager.iml" filepath="$PROJECT_DIR$/../autoviewpager/autoviewpager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../thirdparty/thirdparty.iml" filepath="$PROJECT_DIR$/../thirdparty/thirdparty.iml" />
     </modules>
   </component>
 </project>

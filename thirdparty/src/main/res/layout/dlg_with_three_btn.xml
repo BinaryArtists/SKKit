@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="@dimen/margin_0dp">
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/margin_purple"
+        android:paddingLeft="@dimen/margin_purple"
+        android:paddingRight="@dimen/margin_purple"
+        android:paddingTop="@dimen/margin_purple"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/font_size_16sp"
+        android:visibility="visible"
+        android:text="你知道你是谁吗？"/>
+
+    <View
+        android:id="@+id/dlg_content_divider"
+        style="@style/dlgTitleDivier"
+        android:visibility="visible"/>
+
+
+    <!--button部分-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dlg_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/margin_12dp"
+            android:text="知道"
+            android:visibility="visible"/>
+
+        <View
+            android:id="@+id/dlg_btn_divider"
+            style="@style/dlgBtnDivier"
+            android:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/dlg_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/margin_12dp"
+            android:text="不知道"
+            android:visibility="visible"
+            />
+
+        <View
+            style="@style/dlgBtnDivier"
+            android:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/dlg_btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/margin_12dp"
+            android:text="不确定"
+            android:visibility="visible"/>
+    </LinearLayout>
+
+
+</LinearLayout>

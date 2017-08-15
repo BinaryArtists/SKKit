@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:paddingTop="@dimen/standard_padding"
+              android:layout_height="match_parent">
+
+
+
+
+    <TextView
+        android:onClick="dialogClick1"
+        style="@style/MenuItemStyle"
+        android:text="常见的1个按键的dialog"
+        />
+
+    <TextView
+        android:onClick="dialogClick2"
+        style="@style/MenuItemStyle2"
+        android:text="常见的2个按键的dialog"/>
+
+    <TextView
+        android:onClick="dialogClick3"
+        style="@style/MenuItemStyle"
+        android:text="常见的3个按键的dialog"/>
+
+    <TextView
+        android:onClick="dialogClick4"
+        style="@style/MenuItemStyle2"
+        android:text="特殊布局的dlg"/>
+
+</LinearLayout>
