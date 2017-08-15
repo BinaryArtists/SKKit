@@ -11,10 +11,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.spark.demo.androiddemo.R;
-import com.spark.demo.autoviewpager.IconPageIndicator;
-import com.spark.demo.autoviewpager.adapter.IconLoopPagerAdapter;
-import com.spark.demo.autoviewpager.page.Page;
-import com.spark.demo.autoviewpager.viewpager.AutoSlidePager;
+import com.spark.framework.component.autoviewpager.IconPageIndicator;
+import com.spark.framework.component.autoviewpager.adapter.IconLoopPagerAdapter;
+import com.spark.framework.component.autoviewpager.page.Page;
+import com.spark.framework.component.autoviewpager.viewpager.AutoSlidePager;
 
 import java.util.ArrayList;
 import java.util.List;

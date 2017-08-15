@@ -1,1 +1,1 @@
-include ':app', ':autoviewpager'
+include ':app', ':sparkit'

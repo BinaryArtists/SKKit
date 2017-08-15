@@ -8,12 +8,12 @@
         android:layout_width="match_parent"
         android:layout_height="160dp">
 
-        <com.spark.demo.autoviewpager.viewpager.AutoSlidePager
+        <com.spark.framework.component.autoviewpager.viewpager.AutoSlidePager
             android:layout_width="match_parent"
             android:layout_height="160dp"
             android:id="@+id/view_pager"/>
 
-            <com.spark.demo.autoviewpager.IconPageIndicator
+            <com.spark.framework.component.autoviewpager.IconPageIndicator
                 android:id="@+id/icon_indicator"
                 android:layout_alignParentBottom="true"
                 android:layout_width="wrap_content"

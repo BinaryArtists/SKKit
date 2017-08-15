@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.spark.demo.androiddemo.R;
-import com.spark.demo.autoviewpager.page.Page;
+import com.spark.framework.component.autoviewpager.page.Page;
 
 /**
  * demo
