@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/SKKit.iml" filepath="$PROJECT_DIR$/SKKit.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/sparkit/sparkit.iml" filepath="$PROJECT_DIR$/sparkit/sparkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thirdparty/thirdparty.iml" filepath="$PROJECT_DIR$/thirdparty/thirdparty.iml" />
     </modules>
   </component>
 </project>
