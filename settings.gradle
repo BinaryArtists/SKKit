@@ -1,1 +1,1 @@
-include ':app', ':sparkit', ':thirdparty'/*,':zxing'*/
+include ':app', ':component', ':thirdparty', ':core', ':hybrid'/*,':zxing'*/
