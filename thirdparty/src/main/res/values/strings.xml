@@ -149,6 +149,11 @@
     <string name="text_share_weixin">微信</string>
     <string name="text_share_sina">新浪</string>
 
+    <string name="text_delete">删除</string>
+    <string name="text_dlg_cancel">取消</string>
+    <string name="text_dlg_confirm">确定</string>
+    <string name="text_dlg_complete">完成</string>
+
 
 
 

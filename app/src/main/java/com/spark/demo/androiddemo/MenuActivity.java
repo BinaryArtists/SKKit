@@ -1,13 +1,18 @@
 package com.spark.demo.androiddemo;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
 import android.view.View;
 
+import com.spark.demo.androiddemo.calender.CalenderActivity;
 import com.spark.demo.androiddemo.dlg.DialogActivity;
 import com.spark.demo.androiddemo.pay.PayActivity;
+import com.spark.demo.androiddemo.share.ShareActivity;
 import com.spark.demo.androiddemo.viewpager.ViewPagerDemoActivity;
+import com.spark.demo.androiddemo.wheelview.WheelViewDemoActivity;
 import com.spark.demo.thirdparty.shake.ShakeShowActivity;
 import com.spark.demo.thirdparty.zxing.activity.CaptureActivity;
 
@@ -47,4 +52,23 @@ public class MenuActivity extends AppCompatActivity {
         // 常见的dialog
         startActivity(new Intent(MenuActivity.this, DialogActivity.class));
     }
+
+    public void shareClick (View v){
+        // 分享
+        startActivity(new Intent(MenuActivity.this, ShareActivity.class));
+    }
+
+    public void wheelClick (View v){
+        // 滚轮控件
+        startActivity(new Intent(MenuActivity.this, WheelViewDemoActivity.class));
+    }
+
+    public void popwindowClick(View v){
+        startActivity(new Intent(MenuActivity.this, PopWindowActivity.class));
+    }
+
+    public void calenderClick (View v){
+        startActivity(new Intent(MenuActivity.this, CalenderActivity.class));
+    }
+
 }

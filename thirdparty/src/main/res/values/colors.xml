@@ -43,8 +43,14 @@
   <color name="win_bg_color">#f4f4f4</color>
   <color name="bg_divider_color">@color/win_bg_color</color>
 
+  <color name="blue">#FF2E98EE</color>
 
 
+
+  <color name="teacher_blue">#286fd0</color>
+
+  <color name="ToDayText">#333333</color>
+  <color name="noMonth">#c0c0c0</color>
 
 
 </resources>

@@ -6,4 +6,10 @@
 
     <!--圆角drawable的圆角半径-->
     <dimen name="res_corner_radius">3dp</dimen>
+
+
+
+
+
+
 </resources>
