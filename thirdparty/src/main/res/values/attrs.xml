@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <attr name="rowCount" format="reference|integer" />
+    <attr name="rowHeight" format="reference|dimension" />
+
+
+    <declare-styleable name="CalendarContainer">
+        <attr name="rowCount" />
+        <attr name="rowHeight" />
+    </declare-styleable>
+
+
+</resources>

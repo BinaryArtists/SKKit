@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >-->
+
+    <!--<item-->
+        <!--android:left="-5px"-->
+        <!--android:right="-5px"-->
+        <!--android:bottom="-5px">-->
+        <!--<shape xmlns:android="http://schemas.android.com/apk/res/android" >-->
+
+            <!--&lt;!&ndash; 这里改填充颜色  select_line&ndash;&gt;-->
+            <!---->
+            <!--<solid android:color="#EFF9EE"-->
+                <!--/>-->
+            <!--&lt;!&ndash; 这里改底部线条颜色 student_green&ndash;&gt;-->
+            <!--选中的天的背景色-->
+            <!--<stroke-->
+                <!--android:width="5px"-->
+                <!--android:color="#6CB952" />-->
+        <!--</shape>-->
+    <!--</item>-->
+
+<!--</layer-list>-->
+
+
+<!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--<item>-->
+    <!--<shape android:shape="oval">-->
+        <!--<padding-->
+            <!--android:bottom="@dimen/margin_20dp"-->
+            <!--android:left="@dimen/margin_20dp"-->
+            <!--android:right="@dimen/margin_20dp"-->
+            <!--android:top="@dimen/margin_20dp" />-->
+        <!--<solid android:color="@color/teacher_blue" />-->
+
+    <!--</shape>-->
+<!--</item>-->
+<!--<item>-->
+    <!--<shape android:shape="oval">-->
+        <!--<solid android:color="@color/teacher_blue" />-->
+    <!--</shape>-->
+<!--</item>-->
+
+<!--</layer-list>-->
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="false">
+
+    <solid android:color="@color/teacher_blue"/>
+
+    <size android:width="24dp"
+    android:height="24dp"/>
+</shape>
+

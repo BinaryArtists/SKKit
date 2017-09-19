@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spark.demo.thirdparty.calender.CourseDayView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/calendar_item_height"
+    android:background="@drawable/calendar_item_bg"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="4dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_course_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="28"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tv_has_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_course_day"
+            android:layout_centerHorizontal="true"
+            android:drawablePadding="4dp"
+            android:text="有课"
+            android:textSize="10sp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_remain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:src="@drawable/calendar_icon02"/>
+</com.spark.demo.thirdparty.calender.CourseDayView>
